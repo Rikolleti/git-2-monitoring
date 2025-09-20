@@ -70,6 +70,10 @@ Push:
 
 P.S.: если при запуске некоторые контейнеры будут падать с ошибкой - проставьте им режим `Z`, например
 `./data:/var/lib:Z`
+
+Ответ:
+<img width="1499" height="707" alt="Снимок экрана 2025-09-20 в 12 57 25" src="https://github.com/user-attachments/assets/af38547c-b8e0-4a8b-8a01-2c793c3a3004" />
+
 #
 8. Перейдите в веб-интерфейс Chronograf (http://localhost:8888) и откройте вкладку Data explorer.
         
