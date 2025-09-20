@@ -72,7 +72,8 @@ P.S.: если при запуске некоторые контейнеры б�
 `./data:/var/lib:Z`
 
 Ответ:
-<img width="1499" height="707" alt="Снимок экрана 2025-09-20 в 12 57 25" src="https://github.com/user-attachments/assets/af38547c-b8e0-4a8b-8a01-2c793c3a3004" />
+<img width="1499" height="707" alt="Снимок экрана 2025-09-20 в 13 13 12" src="https://github.com/user-attachments/assets/36d80095-baad-4a48-b873-e112e53a19e2" />
+
 
 #
 8. Перейдите в веб-интерфейс Chronograf (http://localhost:8888) и откройте вкладку Data explorer.
