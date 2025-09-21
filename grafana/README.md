@@ -6,7 +6,8 @@
 Решение домашнего задания — скриншот веб-интерфейса grafana со списком подключенных Datasource.
 
 Ответ:
-<img width="1499" height="490" alt="Снимок экрана 2025-09-21 в 19 05 15" src="https://github.com/user-attachments/assets/7a12905b-6c35-4b2d-85cc-47cb06458506" />
+<img width="1499" height="697" alt="Снимок экрана 2025-09-21 в 19 27 59" src="https://github.com/user-attachments/assets/6101965c-b9d6-4b2c-8fb5-634ea26c5c43" />
+
 
 
 ## Задание 2
@@ -25,7 +26,13 @@
 Для решения этого задания приведите promql-запросы для выдачи этих метрик, а также скриншот получившейся Dashboard.
 
 Ответ:
-1 - 
+1 - "100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100)"
+2 - node_load1/node_load5/node_load15
+3 - node_memory_MemAvailable_bytes / 1024 / 1024 (в мегабайтах)
+4 - node_filesystem_free_bytes{fstype!~"tmpfs|overlay"} / 1024 / 1024 (в мегабайтах)
+
+<img width="1499" height="697" alt="Снимок экрана 2025-09-21 в 19 30 51" src="https://github.com/user-attachments/assets/1541541b-c678-42d8-b00e-1cbfcfb94425" />
+
 
 ## Задание 3
 Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».
