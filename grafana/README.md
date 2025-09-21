@@ -26,10 +26,10 @@
 Для решения этого задания приведите promql-запросы для выдачи этих метрик, а также скриншот получившейся Dashboard.
 
 Ответ:
-1 - "100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100)"
-2 - node_load1/node_load5/node_load15
-3 - node_memory_MemAvailable_bytes / 1024 / 1024 (в мегабайтах)
-4 - node_filesystem_free_bytes{fstype!~"tmpfs|overlay"} / 1024 / 1024 (в мегабайтах)
+1. "100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100)".
+2. node_load1/node_load5/node_load15
+3. node_memory_MemAvailable_bytes / 1024 / 1024 (в мегабайтах)
+4. node_filesystem_free_bytes{fstype!~"tmpfs|overlay"} / 1024 / 1024 (в мегабайтах)
 
 <img width="1499" height="697" alt="Снимок экрана 2025-09-21 в 19 30 51" src="https://github.com/user-attachments/assets/1541541b-c678-42d8-b00e-1cbfcfb94425" />
 
