@@ -11,9 +11,10 @@
 
 ## Задание 2
 Изучите самостоятельно ресурсы:
-PromQL tutorial for beginners and humans.
-Understanding Machine CPU usage.
-Introduction to PromQL, the Prometheus query language.
+1. PromQL tutorial for beginners and humans.
+2. Understanding Machine CPU usage.
+3. Introduction to PromQL, the Prometheus query language.
+
 Создайте Dashboard и в ней создайте Panels:
 
 1. утилизация CPU для nodeexporter (в процентах, 100-idle);
