@@ -5,6 +5,10 @@
 Подключите поднятый вами prometheus, как источник данных.
 Решение домашнего задания — скриншот веб-интерфейса grafana со списком подключенных Datasource.
 
+Ответ:
+<img width="1499" height="490" alt="Снимок экрана 2025-09-21 в 19 05 15" src="https://github.com/user-attachments/assets/7a12905b-6c35-4b2d-85cc-47cb06458506" />
+
+
 ## Задание 2
 Изучите самостоятельно ресурсы:
 PromQL tutorial for beginners and humans.
