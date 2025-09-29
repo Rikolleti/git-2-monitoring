@@ -8,4 +8,9 @@ sentry_sdk.init(
 )
 
 if __name__ == "__main__":
-    division_by_zero = 1 / 0
+    sentry_sdk.capture_message("🔔 Test event: Hello from Python!")
+    try:
+        1 / 0
+    except ZeroDivisionError as e:
+        sentry_sdk.capture_exception(e)
+        print("Ошибка отправлена в Sentry")
